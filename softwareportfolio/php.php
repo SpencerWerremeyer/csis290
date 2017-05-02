@@ -102,8 +102,8 @@
         <a href="index.html">Home</a> |
         <a href="c++.html">C++</a> |
         <a href="JavaScript.html">JavaScript</a> |
-        <a href="PHP.html">PHP</a> |
-        <a href="SQL.htl">SQL</a>
+        <a href="php.php">PHP</a> |
+        <a href="SQL.html">SQL</a>
       </div>
       <div id="about">
 	<p>Number of Die <?php echo(constant("NUMBER_OF_DIE")) ?></p>
