@@ -29,13 +29,14 @@
              var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
              var seconds = Math.floor((distance % (1000 * 60)) / 1000);
              
-             document.getElementById("countdown").innerHTML = days + ":" + hours + ":" + minutes + ":" + seconds + ":";
+             document.getElementById("countdown").innerHTML = days + ":" + hours + ":" + minutes + ":" + seconds;
            }, 1000);
 
       </script>
       <div id="about">
         I have written a countdown clock that counts down to my last day of highschool.  It uses all javascript.
-        <a href="https://github.com/SpencerWerremeyer/csis290/blob/master/softwareportfolio/JavaScript.html">Source</a>
+        <a href="https://github.com/SpencerWerremeyer/csis290/blob/master/softwareportfolio/JavaScript.html">Source</a><br>
+        
         <div id="countdown"> </div>
           
       </div>
